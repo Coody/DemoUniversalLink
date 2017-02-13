@@ -55,7 +55,7 @@
 - 到專案面板，選擇 App -> Tergat -> Capabilities -> Associated Domains 開成 on (會產生 (Target名稱).entitlements 檔案，請自行拉到適當的資料夾)
 - 在 Capabilities 那裡要點擊 + 加入想要支持 universal link 的 domain（域名）
     - 如： applinks:www.08online.com
-- 去[Apple WWDC](https://developer.apple.com/account/)看自己 App 的 Associated Domains 是否為綠燈，如果沒有，請編輯 AppID 讓他變成綠燈，且要重新產生 Provision Profile ！
+- 去[Apple WWDC](https://developer.apple.com/account/)看自己 App 的 Associated Domains 是否為綠燈，如果沒有，請編輯該 App 讓他變成綠燈，且要重新產生所有的 Provision Profile ！（更改並不會影響已經上線的 App ，請放心修改）
 - 請下載此專案、或是直接在記事本貼上網址，來測試看看是否能成功喚醒 App（記得去修改該 App 的 scheme 讓他 build and run 之後等待喚醒）
 - 測試成功後，請在 AppDelegate 中實現方法：
     
@@ -88,5 +88,5 @@
     
 # 補充
 - universal link 無法傳遞 data ，如果要傳遞資料可以加在 universal link 的網址後方，如： https://www.ooxx.com.tw/test?foo=bar
-- 傳遞資料看起來還是要用 Custom URL Scheme，詳細請看[Share data between two or more iPhone applications](http://stackoverflow.com/questions/9425706/share-data-between-two-or-more-iphone-applications)
-- 參考[Is there any way to add userInfo for iOS's universal links?](http://stackoverflow.com/questions/37388095/is-there-any-way-to-add-userinfo-for-ioss-universal-links)
+- 傳遞資料看起來還是要用 Custom URL Scheme，詳細請看 [Share data between two or more iPhone applications](http://stackoverflow.com/questions/9425706/share-data-between-two-or-more-iphone-applications)
+- 參考 [Is there any way to add userInfo for iOS's universal links?](http://stackoverflow.com/questions/37388095/is-there-any-way-to-add-userinfo-for-ioss-universal-links)
