@@ -4,9 +4,9 @@
 
 # 參考資料來源
 
-- [yohunl.com](https://yohunl.com/ios-universal-links-tong-yong-lian-jie/)
-- [Michael Barshinger](https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8#.qu6q9qwd0)
-- [raywenderlich](https://www.raywenderlich.com/84174/ios-8-handoff-tutorial)
+- [yohunl.com(主要)](https://yohunl.com/ios-universal-links-tong-yong-lian-jie/)
+- [Michael Barshinger(主要)](https://medium.com/@barsh/my-first-date-with-ios-universal-links-90dfabc88bb8#.qu6q9qwd0)
+- [raywenderlich(參考)](https://www.raywenderlich.com/84174/ios-8-handoff-tutorial)
 
 # Web 端 
 - 在 root 建立 .well-known 資料夾，請使用檔案名稱 .well-known__.__   （ <---請注意最後的__.__ ）
