@@ -54,7 +54,7 @@
 
 - 到專案面板，選擇 App -> Tergat -> Capabilities -> Associated Domains 開成 on (會產生 (Target名稱).entitlements 檔案，請自行拉到適當的資料夾)
 - 在 Capabilities 那裡要點擊 + 加入想要支持 universal link 的 domain（域名）
-    - 如： applinks:www.08online.com
+    - 如： applinks:www.ooxx.com
 - 去[Apple WWDC](https://developer.apple.com/account/)看自己 App 的 Associated Domains 是否為綠燈，如果沒有，請編輯該 App 讓他變成綠燈，且要重新產生所有的 Provision Profile ！（更改並不會影響已經上線的 App ，請放心修改）
 - 請下載此專案、或是直接在記事本貼上網址，來測試看看是否能成功喚醒 App（記得去修改該 App 的 scheme 讓他 build and run 之後等待喚醒）
 - 測試成功後，請在 AppDelegate 中實現方法：
