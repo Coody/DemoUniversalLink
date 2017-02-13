@@ -32,7 +32,7 @@
     }
     ```
 - appID 的 value 請上[Apple WWDC](https://developer.apple.com/account/)上面看，格式前面為 TeamID ，接後面為 App Bundle ID
-- paths 的 * 的意思是可以串在你 link root 網址的後面格式，假設你的 link 為 ```www.abc.com``` ，那麼 * 指 ```www.abc.com/(如果有安裝此app_那麼任意加都可連結到你的app)```，但是如果沒有安裝此 app ，則會直接連接到該網址。
+- paths 的 * 的意思是可以串在你 link root 網址的後面格式，假設你的 link 為 ```www.abc.com``` ，那麼 * 是指 ```www.abc.com/123abc(任意加都可連結到你的app)```，這是如果你有安裝此 app 的話；如果沒有安裝此 app ，則會直接連接到 ```www.abc.com/123abc``` 該網址。
 
 
 # Server 端
