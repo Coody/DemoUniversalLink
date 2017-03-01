@@ -90,3 +90,4 @@
 - universal link 無法傳遞 data ，如果要傳遞資料可以加在 universal link 的網址後方，如： https://www.ooxx.com.tw/test?foo=bar
 - 傳遞資料看起來還是要用 Custom URL Scheme，詳細請看 [Share data between two or more iPhone applications](http://stackoverflow.com/questions/9425706/share-data-between-two-or-more-iphone-applications)
 - 參考 [Is there any way to add userInfo for iOS's universal links?](http://stackoverflow.com/questions/37388095/is-there-any-way-to-add-userinfo-for-ioss-universal-links)
+- 第三方跨平台解決方案 [branch.io](https://branch.io)
